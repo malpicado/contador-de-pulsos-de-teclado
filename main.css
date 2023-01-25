@@ -3,8 +3,8 @@
 body{
     margin: 0;
     position: absolute;
-    width: 90vw;
-    height: 90vh;
+    width: 100vw;
+    height: 100vh;
     overflow: hidden;
     display: table;
     font-family: "roboto mono";

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono:wght@500;700&family=Ubuntu+Mono:wght@400;700&family=VT323&display=swap');
+
+body{
+    margin: 0;
+    position: absolute;
+    width: 90vw;
+    height: 90vh;
+    overflow: hidden;
+    display: table;
+    font-family: "roboto mono";
+    background-color: #FFC602;
+}
+
+#actividad {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#actividad::before{
+    content: "Presiona cualquier tecla de tu teclado";
+    letter-spacing: 2px;
+}
+
+#reset {
+    background-color: #018001;
+    color: #fff;
+    border: 0;
+    padding: 10px;
+    box-shadow: 0px 3px 8px rgba(0,0,0, 0.75);
+    font-size: 20PX;
+    letter-spacing: 2px;
+}
+
+#reset:hover{
+    background-color: #eee;
+    color: #018001;
+    font-weight: bold;
+}
+
+#pulsos{
+    font-size: 80px;
+    color: #018001;
+}
+
+h2{
+    font-family: "press start 2p";
+}
+
+.footer{
+    font-size: 20px;
+    font-family: "ubuntu mono";
+}
+
+a{
+text-decoration: none;
+color: #018001;
+}
+
+a:hover{
+color: #2E24B3;
+}
+
+img{
+    max-width: 150px;
+}
+
+section{
+    align-items: center;
+    margin: auto;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+}
